@@ -6,12 +6,11 @@
     
         
         {{#if @blog.logo}}
+         <nav class="cover-navigation cover-navigation--primary">
         
         <a href="{{@blog.url}}" title="前往 {{@blog.title}} 的主页"><img src="{{@blog.logo}}" width="80" alt="{{@blog.title}} logo" class="panel-cover__logo logo" /></a>
         {{/if}}
         <h1 class="panel-cover__title panel-title"><a href="{{@blog.url}}" title="前往 {{@blog.title}} 的主页">{{@blog.title}}</a></h1>
-        
-        <nav class="cover-navigation cover-navigation--primary">
         
         <span class="panel-cover__subtitle panel-subtitle">Just For Fun</span>
         
