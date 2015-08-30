@@ -10,8 +10,9 @@
         <h1 class="panel-cover__title panel-title"><a href="{{@blog.url}}" title="前往 {{@blog.title}} 的主页">{{@blog.title}}</a></h1>
         <span class="panel-cover__subtitle panel-subtitle">Just For Fun</span>
         <hr class="panel-cover__divider" />
-        <p class="panel-cover__description">{{@blog.description}}</p>
+        <p class="panel-cover__description">Hi ~ 我是肖辉枚，现居深圳，是一名 iOS、C、C++ 开发者。喜欢摄影，喜欢骑行，希望我们能够成为朋友。</p>
         <hr class="panel-cover__divider panel-cover__divider--secondary" />
+        <p class="panel-cover__description"> <a href="http://kevinhm.gitbooks.io/functionalreactiveprogrammingonios/content/" target="_blank">Funtional Reactive Programming On iOS - 如果您喜欢，那将是我的荣幸</a></p>
 
         <div class="navigation-wrapper">
           <div>
@@ -19,20 +20,29 @@
             <ul class="navigation">
               <li class="navigation__item"><a href="/#blog" title="访问博客" class="blog-button">博客</a></li>
               <li class="navigation__item"><a href="https://github.com/KevinHM" target="_blank" title="我的项目">项目</a></li>
-              <li class="navigation__item"><a href="http://about.zboy.me/" title="了解更多关于我">关于</a></li>
+              <li class="navigation__item"><a href="http://www.oschina.net/question/2306979_246170" title="了解更多关于我">关于</a></li>
               <li class="navigation__item"><a href="http://eepurl.com/" title="邮件订阅本站">订阅</a></li>
             </ul>
           </nav>
           </div>
           <div>
           {{> social}}
+          
           </div>
+          
+          <div>
+          <nav class="cover-navigation cover-navigation--primary">
+          <p class="panel-cover__description"> 粤ICP备15049195号-4 </p>
+          </nav>
+          </div>
+          
+          
         </div>
 
       </div>
 
     </div>
 
-    <div class="panel-cover--overlay cover-slate"></div>
+    <div class="panel-cover--overlay cover-black"></div>
   </div>
 </header>
